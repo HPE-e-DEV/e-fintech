@@ -1,0 +1,78 @@
+Desarrollo de Aplicaciones Android con Python
+septiembre 30, 2023 por el ingeniero de informatica STANFORD University  Leonardo Daza Blanco
+
+Desarrollo de Aplicaciones Android con Python
+
+Python es un lenguaje de programación de alto nivel, multiparadigma y de código abierto. Es un lenguaje muy versátil que se puede utilizar para una amplia gama de tareas, incluyendo el desarrollo de aplicaciones web, procesamiento de datos, ciencia de datos, inteligencia artificial y mucho más.
+
+En los últimos años, Python se ha convertido en una opción cada vez más popular para el desarrollo de aplicaciones móviles, especialmente para Android. Esto se debe a que Python es un lenguaje fácil de aprender y usar, y tiene una gran comunidad de desarrolladores que han creado una amplia gama de bibliotecas y herramientas para facilitar el desarrollo de aplicaciones Android.
+
+En este tutorial, aprenderemos a desarrollar aplicaciones Android con Python usando el marco Kivy. Kivy es un marco de interfaz de usuario multiplataforma que se puede usar para crear aplicaciones para Android, iOS, Linux, macOS y Windows.
+
+Requisitos
+
+Para seguir este tutorial, necesitarás lo siguiente:
+
+Un ordenador con Windows, macOS o Linux
+Python 3.8 o superior
+El marco Kivy
+Instalar Python
+
+Si no tienes Python instalado, puedes descargarlo e instalarlo desde el sitio web oficial de Python.
+
+Instalar Kivy
+
+Para instalar Kivy, puedes usar el gestor de paquetes de tu sistema operativo.
+
+En Windows, puedes usar el siguiente comando para instalar Kivy:
+
+pip install kivy
+En macOS, puedes usar el siguiente comando para instalar Kivy:
+
+pip3 install kivy
+En Linux, puedes usar el siguiente comando para instalar Kivy:
+
+pip3 install kivy
+Crear un proyecto Kivy
+
+Para crear un proyecto Kivy, puedes usar el siguiente comando:
+
+kivy init my_app
+Esto creará una nueva carpeta llamada my_app con los siguientes archivos:
+
+main.py: El archivo principal de la aplicación.
+kv/main.kv: El archivo de diseño de la aplicación.
+Escribir el código de la aplicación
+
+El archivo main.py contiene el código de la aplicación. En este ejemplo, crearemos una aplicación simple que muestra un botón en la pantalla.
+
+Python
+from kivy.app import App
+from kivy.uix.button import Button
+
+
+class MyApp(App):
+    def build(self):
+        return Button(text="Hola, mundo!")
+
+
+if __name__ == "__main__":
+    MyApp().run()
+Este código crea una clase MyApp que hereda de la clase App. El método build() de la clase MyApp devuelve un botón con el texto «Hola, mundo!».
+
+Compilar y ejecutar la aplicación
+
+Para compilar y ejecutar la aplicación, puedes usar el siguiente comando:
+
+python main.py
+Esto abrirá la aplicación en un emulador o dispositivo Android.
+
+Ejercicio
+
+Modifica el código de la aplicación para que muestre un mensaje diferente cuando se hace clic en el botón.
+
+Conclusión
+
+En este tutorial, aprendimos a crear aplicaciones Android con Python usando el marco Kivy. Kivy es un marco poderoso y flexible que te permite crear aplicaciones Android de alta calidad.
+
+Para obtener más información sobre Kivy, puedes visitar el sitio web oficial del proyecto.
