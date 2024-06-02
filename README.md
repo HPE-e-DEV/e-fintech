@@ -1,5 +1,5 @@
 # e-fintech
-system Bnak Bitcash
+system Bank Bitcash
 Contenidos
 1. ¿Por qué es Python ideal para las finanzas?
 2. Usos y herramientas para conducir análisis financieros con Python
