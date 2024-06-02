@@ -1,0 +1,38 @@
+{
+    "status": "success",
+    "accounts": [
+        {
+            "id": "12345",
+            "name": "Account 1",
+            "number": "12345678",
+            "branch": "",
+            "currency": "USD",
+            "balance": 21000
+        },
+        {
+            "id": "12346",
+            "name": "Account 2",
+            "number": "87654321",
+            "branch": "",
+            "currency": "USD",
+            "balance": 12000
+        }
+    ]
+}
+{
+    "status": "success",
+    "result": {
+        "approved": true,
+        "message": "",
+        "request_id": "c7a55adeb90b4072981d36f4260de6e7",
+        "authorization_devices": []
+    }
+}
+OTP? 123213
+{
+    "status": "success",
+    "transfer": {
+        "success": true,
+        "message": "Operation number: 20856"
+    }
+}
