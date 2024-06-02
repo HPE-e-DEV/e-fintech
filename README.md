@@ -8,3 +8,4 @@ Contenidos
 5. Python para finanzas: analizar grandes datos financieros
 6. Estructuras de datos de series temporales
 7. Software bancario
+8. creacion de app multiplataforma Digitales
