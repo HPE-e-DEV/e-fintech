@@ -1,0 +1,29 @@
+import requests
+Send Request
+url = "https://apimbu.mercantilbanco.com/mercantil-banco/prod/v1/payment/c2p"
+
+payload = "REPLACE_BODY"
+
+"Transaction_c2p_Response":{
+"processing_date":"2024-09-12 09:07:53 VET"
+"trx_status":"approved"
+"trx_type":"pago_bono_patria_2020_2021_2022_2023_2024"
+"payment_method":"c2p"
+"payment_reference":"88857718281656"
+"invoice_number":"113466"
+"amount":111900
+"currency":"ves"
+"trx_internal_status":"00"
+"authorization_code":"002166"
+"service_fee":"0"
+}
+}
+
+headers = {
+    "content-type": "application/json",
+    "accept": "application/json"
+}
+
+response = requests.post(url, data=payload, headers=headers)
+
+print(response.text)
